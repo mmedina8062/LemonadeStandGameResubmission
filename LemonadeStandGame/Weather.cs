@@ -7,8 +7,8 @@ namespace LemonadeStandGame
 {
     public class Weather
     {
-        private int Temperature;
-        private int WeatherConditions
+        public int Temperature;
+        public int WeatherConditions;
 
         public Day Day
         {
@@ -24,10 +24,10 @@ namespace LemonadeStandGame
         }
         public string GenerateWeatherCondition()
         {
-            List<string> weather = new List<string> { "Rainy", "Sunny", "Cloudy", "Windy"};
+            List<string> weatherCondition = new List<string> { "Rainy", "Sunny", "Cloudy", "Windy"};
             Random r = new Random();
-            int index = r.Next(weather.Count);
-            string randomString = weather[index];
+            int index = r.Next(weatherCondition.Count);
+            string randomString = weatherCondition[index];
             Console.WriteLine(randomString);
             Console.ReadLine();
 
