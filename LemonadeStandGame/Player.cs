@@ -18,6 +18,11 @@ namespace LemonadeStandGame
             }
         }
 
+        public Player()
+        {
+
+        }
+
         public void SetIngredients()
         {
             throw new System.NotImplementedException();
