@@ -20,7 +20,7 @@
   <Class Name="LemonadeStandGame.Weather">
     <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAA=</HashCode>
       <FileName>Weather.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -38,9 +38,9 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="LemonadeStandGame.Inventory">
-    <Position X="6.25" Y="5" Width="1.5" />
+    <Position X="6.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <HashCode>AAQACAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAEAA=</HashCode>
       <FileName>Inventory.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
