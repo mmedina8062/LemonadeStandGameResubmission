@@ -7,5 +7,12 @@ namespace LemonadeStandGame
 {
     public class UserInterface
     {
+        public Game Game
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }
