@@ -24,7 +24,7 @@ namespace LemonadeStandGame
         }
         public string GenerateWeatherCondition()
         {
-            List<string> weatherCondition = new List<string> { "Rainy", "Sunny", "Cloudy", "Windy"};
+            List<string> weatherCondition = new List<string> { "Rainy", "Sunny", "Cloudy", "Windy", "Cloudy & Windy", "Sunny & Windy", "Rainy & Cloudy" };
             Random r = new Random();
             int index = r.Next(weatherCondition.Count);
             string randomString = weatherCondition[index];

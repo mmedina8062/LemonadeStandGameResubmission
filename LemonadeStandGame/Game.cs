@@ -17,10 +17,9 @@ namespace LemonadeStandGame
         //ctor
         public Game()
         {
-
+            Day day = new Day();
             Player player = new Player();
             Store store = new Store();
-            Day day = new Day();
             UserInterface userInterface = new UserInterface();
         }
 
