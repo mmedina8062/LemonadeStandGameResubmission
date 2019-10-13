@@ -30,5 +30,11 @@ namespace LemonadeStandGame
             this.IceCubes = 0;
             this.Cups = 0;
         }
+
+       /* public int Lemons()
+        {
+            List<int> Lemons = new List<int>
+        }*/
+
     }
 }

@@ -54,7 +54,7 @@ namespace LemonadeStandGame
 
         public void AmountOfLemons(Day day)
         {
-            Console.WriteLine("Amount of Lemons: ");
+            Console.WriteLine("Amount of Lemons/pitcher: ");
             string UserInput = Console.ReadLine();
             day.recipe.rLemons = int.Parse(UserInput);
             SetIngredients(day);
@@ -62,28 +62,30 @@ namespace LemonadeStandGame
         }
         public void AmountOfSugar(Day day)
         {
-            Console.WriteLine("Amount of Sugar: ");
+            Console.WriteLine("Amount of Sugar/pitcher: ");
             string UserInput = Console.ReadLine();
             day.recipe.rSugar = int.Parse(UserInput);
             SetIngredients(day);
         }
         public void AmountOfIceCubes(Day day)
         {
-            Console.WriteLine("Amount of Ice Cubes: ");
+            Console.WriteLine("Amount of Ice Cubes/pitcher: ");
             string UserInput = Console.ReadLine();
             day.recipe.rIceCubes = int.Parse(UserInput);
             SetIngredients(day);
         }
         public void AmountOfCups(Day day)
         {
-            Console.WriteLine("Amount of Cups: ");
+            Console.WriteLine("Amount of Cups/pitcher: ");
             string UserInput = Console.ReadLine();
             day.recipe.rCups = int.Parse(UserInput);
             SetIngredients(day);
         }
-        public void SetPrice()
+        public double SetPrice()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Price per Cup: ");
+            string UserInput = Console.ReadLine();
+            return double.Parse(UserInput);
         }
 
         public void WalletTransactions()
